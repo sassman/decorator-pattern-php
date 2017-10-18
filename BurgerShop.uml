@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\BurgerShop\Bill</OriginalElement>
+  <nodes>
+    <node x="204.0" y="158.0">\BurgerShop\CheeseburgerWithDoubleCheese</node>
+    <node x="286.0" y="79.0">\BurgerShop\Hamburger</node>
+    <node x="148.0" y="79.0">\BurgerShop\Cheeseburger</node>
+    <node x="0.0" y="232.0">\BurgerShop\Bill</node>
+    <node x="0.0" y="158.0">\BurgerShop\CheeseburgerWithOnion</node>
+    <node x="233.5" y="0.0">\BurgerShop\Billable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\BurgerShop\CheeseburgerWithDoubleCheese" target="\BurgerShop\Cheeseburger">
+      <point x="0.0" y="-14.5" />
+      <point x="322.0" y="133.0" />
+      <point x="236.5" y="133.0" />
+      <point x="29.5" y="14.5" />
+    </edge>
+    <edge source="\BurgerShop\CheeseburgerWithOnion" target="\BurgerShop\Cheeseburger">
+      <point x="0.0" y="-14.5" />
+      <point x="92.0" y="133.0" />
+      <point x="177.5" y="133.0" />
+      <point x="-29.5" y="14.5" />
+    </edge>
+    <edge source="\BurgerShop\Hamburger" target="\BurgerShop\Billable">
+      <point x="0.0" y="-14.5" />
+      <point x="337.0" y="54.0" />
+      <point x="291.25" y="54.0" />
+      <point x="19.25" y="14.5" />
+    </edge>
+    <edge source="\BurgerShop\Cheeseburger" target="\BurgerShop\Billable">
+      <point x="0.0" y="-14.5" />
+      <point x="207.0" y="54.0" />
+      <point x="252.75" y="54.0" />
+      <point x="-19.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="130.5" />
+  <SelectedNodes />
+  <Categories />
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

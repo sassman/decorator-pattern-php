@@ -1,0 +1,14 @@
+{
+    "name": "d34dl0ck/burger-shop",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sven Assmann",
+            "email": "sven.assmann@sixt.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"BurgerShop\\": "src/"}
+    }
+}
