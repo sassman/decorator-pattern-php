@@ -2,10 +2,10 @@
 
 namespace BurgerShop;
 
-class Hamburger extends Product
+class Onion extends Product
 {
     public function getPrice()
     {
-        return parent::getPrice() + 3.99;
+        return parent::getPrice() + 0.4;
     }
 }

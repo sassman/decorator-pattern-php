@@ -29,8 +29,8 @@
       <file leaf-file-name="Hamburger.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Hamburger.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state vertical-scroll-proportion="-4.375">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -39,9 +39,58 @@
       <file leaf-file-name="Main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22203948">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23076923">
+              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PHP/\BurgerShop\Bill" pinned="false" current-in-tab="false">
+        <entry file="uml://PHP/\BurgerShop\Bill">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>PHP</ID>
+              <OriginalElement>\BurgerShop\Bill</OriginalElement>
+              <nodes>
+                <node x="204.0" y="158.0">\BurgerShop\CheeseburgerWithDoubleCheese</node>
+                <node x="286.0" y="79.0">\BurgerShop\Hamburger</node>
+                <node x="148.0" y="79.0">\BurgerShop\Cheeseburger</node>
+                <node x="0.0" y="232.0">\BurgerShop\Bill</node>
+                <node x="0.0" y="158.0">\BurgerShop\CheeseburgerWithOnion</node>
+                <node x="233.5" y="0.0">\BurgerShop\Billable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="\BurgerShop\CheeseburgerWithDoubleCheese" target="\BurgerShop\Cheeseburger">
+                  <point x="0.0" y="-14.5" />
+                  <point x="322.0" y="133.0" />
+                  <point x="236.5" y="133.0" />
+                  <point x="29.5" y="14.5" />
+                </edge>
+                <edge source="\BurgerShop\CheeseburgerWithOnion" target="\BurgerShop\Cheeseburger">
+                  <point x="0.0" y="-14.5" />
+                  <point x="92.0" y="133.0" />
+                  <point x="177.5" y="133.0" />
+                  <point x="-29.5" y="14.5" />
+                </edge>
+                <edge source="\BurgerShop\Hamburger" target="\BurgerShop\Billable">
+                  <point x="0.0" y="-14.5" />
+                  <point x="337.0" y="54.0" />
+                  <point x="291.25" y="54.0" />
+                  <point x="19.25" y="14.5" />
+                </edge>
+                <edge source="\BurgerShop\Cheeseburger" target="\BurgerShop\Billable">
+                  <point x="0.0" y="-14.5" />
+                  <point x="207.0" y="54.0" />
+                  <point x="252.75" y="54.0" />
+                  <point x="-19.25" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-152.0" y="68.0" />
+              <SelectedNodes />
+              <Categories />
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -79,8 +128,38 @@
       <file leaf-file-name="Cheeseburger.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cheeseburger.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cheese.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cheese.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Onion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Onion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -93,13 +172,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/Cheesburger.php" />
         <option value="$PROJECT_DIR$/src/Billable.php" />
-        <option value="$PROJECT_DIR$/src/Cheeseburger.php" />
-        <option value="$PROJECT_DIR$/src/Hamburger.php" />
         <option value="$PROJECT_DIR$/src/Bill.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/CheeseburgerWithDoubleCheese.php" />
         <option value="$PROJECT_DIR$/src/CheeseburgerWithOnion.php" />
+        <option value="$PROJECT_DIR$/src/Burger.php" />
+        <option value="$PROJECT_DIR$/src/Product.php" />
+        <option value="$PROJECT_DIR$/src/Cheese.php" />
+        <option value="$PROJECT_DIR$/src/Onion.php" />
+        <option value="$PROJECT_DIR$/src/Cheeseburger.php" />
+        <option value="$PROJECT_DIR$/src/Hamburger.php" />
         <option value="$PROJECT_DIR$/src/Main.php" />
       </list>
     </option>
@@ -182,6 +265,8 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v8.6.0/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -274,22 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cheeseburger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hamburger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bill.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.352941">
@@ -322,27 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://PHP/\BurgerShop\Bill">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>PHP</ID>
-          <OriginalElement>\BurgerShop\Bill</OriginalElement>
-          <nodes>
-            <node x="" y="">\BurgerShop\CheeseburgerWithDoubleCheese</node>
-            <node x="" y="">\BurgerShop\Hamburger</node>
-            <node x="" y="">\BurgerShop\Cheeseburger</node>
-            <node x="" y="">\BurgerShop\Bill</node>
-            <node x="" y="">\BurgerShop\Billable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="149.5" y="130.5" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CheeseburgerWithOnion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
@@ -351,10 +399,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://PHP/\BurgerShop\Bill">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\BurgerShop\Bill</OriginalElement>
+          <nodes>
+            <node x="204.0" y="158.0">\BurgerShop\CheeseburgerWithDoubleCheese</node>
+            <node x="286.0" y="79.0">\BurgerShop\Hamburger</node>
+            <node x="148.0" y="79.0">\BurgerShop\Cheeseburger</node>
+            <node x="0.0" y="232.0">\BurgerShop\Bill</node>
+            <node x="0.0" y="158.0">\BurgerShop\CheeseburgerWithOnion</node>
+            <node x="233.5" y="0.0">\BurgerShop\Billable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\BurgerShop\CheeseburgerWithDoubleCheese" target="\BurgerShop\Cheeseburger">
+              <point x="0.0" y="-14.5" />
+              <point x="322.0" y="133.0" />
+              <point x="236.5" y="133.0" />
+              <point x="29.5" y="14.5" />
+            </edge>
+            <edge source="\BurgerShop\CheeseburgerWithOnion" target="\BurgerShop\Cheeseburger">
+              <point x="0.0" y="-14.5" />
+              <point x="92.0" y="133.0" />
+              <point x="177.5" y="133.0" />
+              <point x="-29.5" y="14.5" />
+            </edge>
+            <edge source="\BurgerShop\Hamburger" target="\BurgerShop\Billable">
+              <point x="0.0" y="-14.5" />
+              <point x="337.0" y="54.0" />
+              <point x="291.25" y="54.0" />
+              <point x="19.25" y="14.5" />
+            </edge>
+            <edge source="\BurgerShop\Cheeseburger" target="\BurgerShop\Billable">
+              <point x="0.0" y="-14.5" />
+              <point x="207.0" y="54.0" />
+              <point x="252.75" y="54.0" />
+              <point x="-19.25" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-152.0" y="68.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cheese.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Onion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cheeseburger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hamburger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22203948">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23076923">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
       </provider>
