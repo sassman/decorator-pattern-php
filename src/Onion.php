@@ -6,6 +6,6 @@ class Onion extends Product
 {
     public function getPrice()
     {
-        return parent::getPrice() + 0.4;
+        return parent::getPrice() + 0.2;
     }
 }

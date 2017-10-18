@@ -6,6 +6,6 @@ class Cheese extends Product
 {
     public function getPrice()
     {
-        return parent::getPrice() + 0.2;
+        return parent::getPrice() + 0.99;
     }
 }
