@@ -2,10 +2,10 @@
 
 namespace BurgerShop;
 
-class Cheeseburger implements Billable
+class Cheeseburger extends Product
 {
     public function getPrice()
     {
-        return 3.49;
+        return parent::getPrice() + 3.49;
     }
 }
