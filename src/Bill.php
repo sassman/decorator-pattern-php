@@ -12,7 +12,7 @@ class Bill
     public function addProduct(Billable $item)
     {
         $this->itemsOnTheBill[] = $item;
-        printf("ordered 1 %s for %2.2f\n", get_class($item), $item->getPrice());
+        printf("ordered 1 %s for %2.2f\n", (string)$item, $item->getPrice());
     }
 
     /**

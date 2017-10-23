@@ -24,4 +24,16 @@ class Product implements Billable
         }
         return 0;
     }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        $onTheBurger = '';
+        if($this->onTheBurger) {
+            $onTheBurger = ' with ' . (string) $this->onTheBurger;
+        }
+        return get_class($this) . $onTheBurger;
+    }
 }
